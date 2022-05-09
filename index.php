@@ -4,11 +4,11 @@
 $ip = PHP_EOL . $_SERVER["REMOTE_ADDR"];
 
 
-$file = fopen("ips.txt","a+");
+$file = fopen("server.txt","a+");
 
 
 fwrite($file,$ip);
 
 
-echo "Your IP has been logged";
+echo "Server";
 ?>
